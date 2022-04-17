@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #4a99d3;
+    width: 1200px;
+    height: 1500px;
+    background-image: url(../img/grass.png);
+    background-position: left bottom;
+    background-repeat: repeat-x;
+}
+
+main {
+    background-color: #213f64;
+    width: 800px;
+    height: 1400px;
+    margin-top: 110px;
+    margin-left: 207px;
+    
+}
+
+h1,
+h2,
+p {
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin-left: 71px;
+    margin-right:71px;
+}
+p{
+    margin-top: 26px;
+}
+h1,
+h2{
+    margin-top: 45px;
+}
+img{
+    margin: 6px;
+    
+}
+.tree{
+    padding-left: 64px;
+}
+
+.bird{
+    padding-right: 64px;
+}

@@ -1,0 +1,58 @@
+body {
+    font-family: 'Times New Roman';
+    width: 1440x;
+}
+    
+
+p{
+    font-size: 25px; 
+    font-weight: 720px;
+    letter-spacing: 1px;
+    line-height: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 800px;
+    min-width: 200px;
+    
+}
+
+h1{
+    text-transform: none;
+    text-align: center;
+    border: solid red;
+    padding: 40px;
+    border-radius: 10px;
+
+}
+li{
+    border-bottom: 3px solid black;
+}
+h2{
+    text-align: left;
+}
+img{
+    text-align: left;
+}
+h3{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+    text-size-adjust: 50px;
+    font-weight: bolder;
+    font-size: xx-large;
+    }
+    
+html{
+        background-image: url(https://kartinkin.net/uploads/posts/2021-07/1626957341_32-kartinkin-com-p-temno-svetlii-fon-krasivo-32.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+
+
