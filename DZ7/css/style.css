@@ -22,11 +22,11 @@ body {
 
 .nav-bar {
     list-style-type: none;
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
+    padding-bottom: 20px;
 
 }
 
@@ -41,8 +41,7 @@ a:nth-child(1) {
 }
 
 .fon {
-    position: fixed;
-    float: right;
+    position: absolute;
     width: 660px;
     margin-top: -90px;
     margin-left: 600px;
@@ -52,6 +51,7 @@ a:nth-child(1) {
     content: url(..//img/Logo.svg);
     position: relative;
     top: 20px;
+    
 }
 
 h1,
@@ -88,7 +88,7 @@ h2 {
 }
 
 p {
-    font-family: 'Open Sans';
+
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -104,7 +104,6 @@ p {
 div a {
     text-align: center;
     line-height: 50px;
-    font-family: 'Open Sans';
     font-style: normal;
     font-size: 20px;
     color: #3F4042;
@@ -131,6 +130,7 @@ div a {
     height: 59px;
     background-color: #C08D5D;
     margin-left: 20px;
+    padding: 5px 0px 5px;
 
 
 

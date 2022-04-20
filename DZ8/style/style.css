@@ -6,22 +6,25 @@
     box-sizing: border-box;
 }
 
-body {
+body{
+    
     background-color: #4a99d3;
     width: 1200px;
     height: 1500px;
-    background-image: url(../img/grass.png);
-    background-position: left bottom;
-    background-repeat: repeat-x;
+    
+    
 }
 
 main {
-    background-color: #213f64;
+    background-color: #213f64c7;
     width: 800px;
-    height: 1400px;
-    margin-top: 110px;
+    height: 1500px;
+    margin-top: -590px;
     margin-left: 207px;
-    
+
+}
+.block1{
+  margin-top:-250px;
 }
 
 h1,
@@ -32,6 +35,7 @@ p {
     text-align: left;
     margin-left: 71px;
     margin-right:71px;
+    padding:0;
 }
 p{
     margin-top: 26px;
@@ -42,7 +46,11 @@ h2{
 }
 img{
     margin: 6px;
+    margin-top:150px;
     
+}
+.image{
+    margin-top:90px;
 }
 .tree{
     padding-left: 64px;
@@ -50,4 +58,34 @@ img{
 
 .bird{
     padding-right: 64px;
+}
+footer{
+    background-image: url(../img/grass.png);
+    background-position: left bottom;
+    background-repeat: repeat-x;
+    margin-top: -250px;
+}
+.sky_shape3{
+    width: 279px;
+    height:158px;
+    position: relative;
+    top: -210px;
+    left:680px;
+}
+.sky_shape2{
+    width: 592px;
+    height:188px;
+    position: relative;
+    left:630px;
+    bottom:120px;
+    opacity: 0.3;
+    z-index: -1;
+}
+.sky_shape{
+    width: 592px;
+    height:188px;
+    position: relative;
+    top: 80px;
+    opacity: 0.3;
+    z-index: -1;
 }
