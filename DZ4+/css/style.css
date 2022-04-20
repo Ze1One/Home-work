@@ -18,13 +18,13 @@ h1 {
     font-weight: 500;
     font-size: 54px;
     color: #003395;
-    margin: 120px 0px 0px 145px;
+    margin: 120px 0px 0px 0px;
 }
 .backraund_text {
     font-weight: 700;
     font-size: 18px;
     color: #000000;
-    margin: 27px 0px 0px 145px;
+    margin: 27px 0px 0px 0px;
 }
 nav {
     background-color: #003395;
