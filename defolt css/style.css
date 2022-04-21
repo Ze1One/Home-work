@@ -1,0 +1,28 @@
+Таня Иваненко, [20.04.2022 21:36]
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(252, 242, 221);
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    padding: 40px 0;
+    /* 40px - верхний и нижний, 0 - левый и правый */
+}
+
+.input-field label {
+    display: inline-block;
+    min-width: 200px;
+    
+}
