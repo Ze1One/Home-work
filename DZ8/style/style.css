@@ -9,8 +9,13 @@
 body{
     
     background-color: #4a99d3;
-    width: 1200px;
-    height: 1500px;
+    max-width: 1200px;
+    max-height: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    
     
     
 }
@@ -21,6 +26,8 @@ main {
     height: 1500px;
     margin-top: -590px;
     margin-left: 207px;
+    /* padding: 0 calc(50% - 590px); */
+    
 
 }
 .block1{
@@ -63,7 +70,12 @@ footer{
     background-image: url(../img/grass.png);
     background-position: left bottom;
     background-repeat: repeat-x;
+    background-attachment: scroll;
     margin-top: -250px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+ 
 }
 .sky_shape3{
     width: 279px;
