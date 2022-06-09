@@ -28,7 +28,7 @@ header>img {
     height: 735px;
     left: calc(50% - 698px/2 + 251px);
     margin-left: 542px;
-    margin-top: -572px;
+    margin-top: -589px;
 }
 
 header>p {
@@ -232,6 +232,7 @@ li>a {
 
 .donation {
     background-color: #F6F6F6;
+    margin: -55px 0 -55px 0;
 }
 
 .donation_dog {
@@ -284,7 +285,7 @@ footer {
     height: 350px;
 
 }
-footer img{
+.puppy{
     position: relative;
     width: 20%;
     left:950px;
@@ -339,4 +340,16 @@ footer p {
     line-height: 115%;
     letter-spacing: 0.06em;
     color: #F1CDB3;
+}
+
+footer img {
+    margin-right: 30px;   
+}
+
+.block_1 p {
+    margin-bottom: 40px;
+}
+.block_2 p{
+    margin-bottom: 25px;
+    text-align: center;
 }
