@@ -4,8 +4,13 @@
     box-sizing: border-box;
 }
 header{
+    width:100%;
+    position: fixed;
+    display: flex;
+    justify-content:center;
     background-color:#549da4;
-    overflow: auto;
+    /* overflow: auto; */
+    /* transition: 0.3s; */
     
     
 }
@@ -36,13 +41,15 @@ header{
     
 }
 .line_one{
+    
     background-color: #bdbac1;
     height: 200px;
     overflow: auto;
 }
 .block__one{
-    margin-top: 50px;
+    margin-top: 5%;
     padding-left: 300px;
+    height: 200px;
 }
 p{
     padding-top: 5px;
@@ -75,8 +82,8 @@ footer{
     background-color:#444444;
     margin-top: 50px;
     height: 100px;
-    back
 }
+
 .bottom_line p{
     float: right;
     padding-right: 300px;

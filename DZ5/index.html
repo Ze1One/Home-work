@@ -13,7 +13,7 @@
 
 
 <body class="container">
-    <header class="container">
+    <header class="header" id="collor">
         <img src="../DZ5/img/logo1.png" alt="logo" class="logo">
         <nav class="menu">
             <ul>
@@ -25,13 +25,36 @@
         </nav>
     </header>
     <main class="line_one">
-        <div class="block__one">
+        <div class="block__one showScroll">
             <h1>Something different</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus nesciunt quidem reprehenderit, quis
                 rem
-                odit.</p>
-            <form action="submit"><button class="button" type="submit">Let's start</button></form>
+                odit.
+            </p>
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button class="button" aria-pressed="true">Submit</button>
+                <button class="button" aria-pressed="true">Let's start</button>
+            </form>
         </div>
+
+        <div class="block-for-mouse">
+            <textarea autocomplete="off" maxlength="30" name="form[]" class="textarea__item"></textarea>
+            <div class="textarea__counter">Осталось <span></span> символов</div>
+        </div>
+
     </main>
     <main class="line_two">
         <div class="block_two">
@@ -48,7 +71,36 @@
                 esse blanditiis ea optio. Quis mollitia doloribus ipsa reprehenderit odit culpa. A odit dolores quisquam
                 dolor sunt doloribus, similique magnam quidem aliquam ipsa.</p>
         </div>
+        <div class="block_two">
+            <img src="../DZ5/img/preview.jpg" alt="busnes" class="img_line__two" width="200">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, accusamus omnis, eligendi cumque
+                beatae provident doloremque eaque tempore saepe exercitationem nemo magnam qui rerum quam excepturi
+                accusantium libero porro non eum a velit aliquid? Corrupti quos quas exercitationem sapiente
+                possimus non consectetur sunt obcaecati at atque vitae ex a et eaque doloremque nemo eius, quae
+                quod, modi delectus tempore cupiditate nobis enim. Itaque perferendis labore non neque ab provident
+                a illo laudantium voluptatem corrupti. Repudiandae eveniet laborum quod illo fugit. Modi aperiam qui
+                atque neque iste nesciunt maxime saepe, molestiae nisi, repudiandae aliquam corrupti quia commodi
+                culpa possimus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum maxime minima, eius
+                deserunt tempora ullam modi quae dicta cumque enim a porro asperiores et accusantium dolores numquam
+                esse blanditiis ea optio. Quis mollitia doloribus ipsa reprehenderit odit culpa. A odit dolores quisquam
+                dolor sunt doloribus, similique magnam quidem aliquam ipsa.</p>
+        </div>
+        <div class="block_two">
+            <img src="../DZ5/img/preview.jpg" alt="busnes" class="img_line__two" width="200">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, accusamus omnis, eligendi cumque
+                beatae provident doloremque eaque tempore saepe exercitationem nemo magnam qui rerum quam excepturi
+                accusantium libero porro non eum a velit aliquid? Corrupti quos quas exercitationem sapiente
+                possimus non consectetur sunt obcaecati at atque vitae ex a et eaque doloremque nemo eius, quae
+                quod, modi delectus tempore cupiditate nobis enim. Itaque perferendis labore non neque ab provident
+                a illo laudantium voluptatem corrupti. Repudiandae eveniet laborum quod illo fugit. Modi aperiam qui
+                atque neque iste nesciunt maxime saepe, molestiae nisi, repudiandae aliquam corrupti quia commodi
+                culpa possimus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum maxime minima, eius
+                deserunt tempora ullam modi quae dicta cumque enim a porro asperiores et accusantium dolores numquam
+                esse blanditiis ea optio. Quis mollitia doloribus ipsa reprehenderit odit culpa. A odit dolores quisquam
+                dolor sunt doloribus, similique magnam quidem aliquam ipsa.</p>
+        </div>
     </main>
+    <script src="script/script.js"></script>
 </body>
 <footer class="bottom_line">
     <p>2022 © All rights reserved</p>
